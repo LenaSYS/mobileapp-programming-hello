@@ -1,10 +1,8 @@
 
 # Rapport
 
-**Skriv din rapport här!**
-För att ändra texterna på app namnet och texten som presenteras inuti appen
-
-_Du kan ta bort all text som finns sedan tidigare_.
+För att ändra texterna på app namnet till appen så har jag ändrat värdet på sträng variabeln som används som titel.
+Dessutom så har jag skapat en ny sträng variabel och bytt ut den som tidigare presenterade text inuti appen, tidigare var det samma variabel som innehöll titeln och texten inuti appen.
 
 ## Följande grundsyn gäller dugga-svar:
 
