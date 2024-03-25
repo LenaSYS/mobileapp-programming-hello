@@ -2,6 +2,7 @@
 # Rapport
 
 **Skriv din rapport här!**
+För att ändra texterna på app namnet och texten som presenteras inuti appen
 
 _Du kan ta bort all text som finns sedan tidigare_.
 
