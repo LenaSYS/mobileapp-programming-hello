@@ -1,9 +1,12 @@
 
 # Rapport
 
-**Skriv din rapport här!**
+För att ändra texterna på app namnet till appen så har jag ändrat värdet på sträng variabeln som används som titel.
+Dessutom så har jag skapat en ny sträng variabel och bytt ut den som tidigare presenterade text inuti appen, tidigare var det samma variabel som innehöll titeln och texten inuti appen.
 
-_Du kan ta bort all text som finns sedan tidigare_.
+I kodsnutten nedanför så kan man se variablerna som har ändrats eller som har blivit tillagda.
+Strängen 'app_name' fanns sen tidigare, och har fått en ny text för att ändra titeln.
+Strängen 'app_text' har jag skapat för att kunna ändra texten som presenteras inuti appen.
 
 ## Följande grundsyn gäller dugga-svar:
 
@@ -16,24 +19,15 @@ _Du kan ta bort all text som finns sedan tidigare_.
 Programkod ska se ut som exemplet nedan. Koden måste vara korrekt indenterad då den blir lättare att läsa vilket gör det lättare att hitta syntaktiska fel.
 
 ```
-function errorCallback(error) {
-    switch(error.code) {
-        case error.PERMISSION_DENIED:
-            // Geolocation API stöds inte, gör något
-            break;
-        case error.POSITION_UNAVAILABLE:
-            // Misslyckat positionsanrop, gör något
-            break;
-        case error.UNKNOWN_ERROR:
-            // Okänt fel, gör något
-            break;
-    }
-}
+<resources>
+    <string name="app_name">Något trevligt.</string>
+    <string name="app_text">Hej!</string>
+</resources>
 ```
 
 Bilder läggs i samma mapp som markdown-filen.
 
-![](android.png)
+![](Skärmavbild%202024-03-25%20kl.%2013.40.47.png)
 
 Läs gärna:
 
